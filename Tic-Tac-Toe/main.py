@@ -66,6 +66,7 @@ def play():
         while True:
             print_board(board)
 
+            # Player's move
             row = int(input("Enter row (1, 2, or 3): ")) - 1
             col = int(input("Enter column (1, 2, or 3): ")) - 1
             if board[row][col] != ' ':
@@ -73,25 +74,30 @@ def play():
                 continue
             board[row][col] = 'X'
 
+            # Check if the player wins
             if is_winner(board, 'X'):
                 print_board(board)
                 print("You win!")
                 break
 
+            # Check for a tie
             if is_board_full(board):
                 print_board(board)
                 print("It's a tie!")
                 break
 
+            # AI's move
             print("AI's move:")
             ai_row, ai_col = get_best_move(board)
             board[ai_row][ai_col] = 'O'
 
+            # Check if the AI wins
             if is_winner(board, 'O'):
                 print_board(board)
                 print("AI wins!")
                 break
 
+            # Check for a tie
             if is_board_full(board):
                 print_board(board)
                 print("It's a tie!")
