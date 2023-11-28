@@ -1,0 +1,24 @@
+{
+  "movies": [
+    {"name": "The Shawshank Redemption", "genre": "Drama"},
+    {"name": "Forrest Gump", "genre": "Drama"},
+    {"name": "The Godfather", "genre": "Crime"},
+    {"name": "Pulp Fiction", "genre": "Crime"},
+    {"name": "The Dark Knight", "genre": "Action"},
+    {"name": "John Wick", "genre": "Action"},
+    {"name": "Avatar", "genre": "Action"},
+    {"name": "The Matrix", "genre": "Sci-Fi"},
+    {"name": "Inception", "genre": "Sci-Fi"},
+    {"name": "Jurassic Park", "genre": "Adventure"},
+    {"name": "Titanic", "genre": "Romance"},
+    {"name": "The Lord of the Rings: The Fellowship of the Ring", "genre": "Fantasy"},
+    {"name": "Harry Potter and the Sorcerer's Stone", "genre": "Fantasy"},
+    {"name": "Casablanca", "genre": "Romance"},
+    {"name": "The Godfather: Part II", "genre": "Crime"},
+    {"name": "The Silence of the Lambs", "genre": "Thriller"},
+    {"name": "The Shining", "genre": "Horror"},
+    {"name": "Psycho", "genre": "Horror"},
+    {"name": "The Revenant", "genre": "Adventure"},
+    {"name": "Seven", "genre": "Thriller"}
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "users": [
+    {
+      "username": "john_doe",
+      "watched_movies": [
+        {"name": "The Shawshank Redemption", "rating": 5},
+        {"name": "The Dark Knight", "rating": 4},
+        {"name": "Forrest Gump", "rating": 2}
+      ]
+    },
+    {
+      "username": "jane_smith",
+      "watched_movies": [
+        {"name": "The Godfather", "rating": 4},
+        {"name": "Pulp Fiction", "rating": 3},
+        {"name": "Inception", "rating": 5}
+      ]
+    },
+    {
+      "username": "alex_miller",
+      "watched_movies": [
+        {"name": "Jurassic Park", "rating": 4},
+        {"name": "Titanic", "rating": 3},
+        {"name": "Avatar", "rating": 5}
+      ]
+    },
+    {
+      "username": "emily_jones",
+      "watched_movies": [
+        {"name": "The Revenant", "rating": 5},
+        {"name": "Forrest Gump", "rating": 4},
+        {"name": "Titanic", "rating": 3}
+      ]
+    },
+    {
+      "username": "michael_smith",
+      "watched_movies": [
+        {"name": "The Godfather", "rating": 5},
+        {"name": "Titanic", "rating": 4},
+        {"name": "Jurassic Park", "rating": 4}
+      ]
+    }
+  ]
+}
